@@ -9,6 +9,10 @@ def good_bye(name=''):
     print('Have a good day {}'.format(name))
 
 
-name1 = 'Xavi'
-good_morning(name1)
-good_bye(name1)
+def introduce_name():
+    return input('Hi, what is your name?')
+
+
+name = introduce_name()
+good_morning(name)
+good_bye(name)
