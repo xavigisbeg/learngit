@@ -5,4 +5,10 @@ def good_morning(name=''):
     print('Good morning {}'.format(name))
 
 
-good_morning('Xavi')
+def good_bye(name=''):
+    print('Have a good day {}'.format(name))
+
+
+name1 = 'Xavi'
+good_morning(name1)
+good_bye(name1)
