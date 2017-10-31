@@ -5,4 +5,9 @@ def good_morning(name=''):
     print('Good morning {}'.format(name))
 
 
-good_morning('Xavi')
+def introduce_name():
+    return input('Hi, what is your name?')
+
+
+name = introduce_name()
+good_morning(name)
